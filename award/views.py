@@ -1,5 +1,16 @@
 from django.shortcuts import render,redirect
 from django.http import HttpResponse,Http404
+from django.conf import settings
+from django.templatetags.static import static
+import datetime as dt
+from .models import *
+from django.core.exceptions import ObjectDoesNotExist
+from django.contrib.auth.decorators import login_required
+from .forms import *
+from django.contrib import messages
+from rest_framework.response import Response
+from rest_framework.views import APIView
+from .serializer import ProfileSerializer, ProjectSerializer
 # Create your views here.
 def index(request):
     date = dt.date.today()
