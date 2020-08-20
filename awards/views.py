@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from .serializer import ProjectSerializer,ProfileSerializer
+from .serializers import ProfileSerializer, ProjectSerializer
 
 # Create your views here.
 def index(request):
