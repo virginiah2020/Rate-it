@@ -1,23 +1,12 @@
-# Awwwards Clone
+# Rate it
 
-## By BrysonMundia (https://github.com/Bryson69)😎 
+## By Virginiah Wamuyu
 
-## Live Site [Awwwards](https://awwwarda123.herokuapp.com/) 
 
 ## Description
 
-A web application whereby you can view projects or pitched ideas by other people. A user can also vote on a project.
+A web application whereby you can view projects. A user can also vote on a project.
 
-### Here is a sneak peek on how it looks...
-
-![](screenshotss/img1.png)
-![](screenshotss/img3.png)
-
-### How It looks when a user is logged in
-
-![](screenshotss/img4.png)
-![](screenshotss/img5.png)
-![](screenshotss/img6.png)
 
 ## User Stories
 
@@ -43,7 +32,7 @@ A web application whereby you can view projects or pitched ideas by other people
 
 #### Clone the Repo and rename it.
 ```bash
-git clone (https://awwwarda123.herokuapp.com/)
+git clone (https://vy-awards.herokuapp.com/)
 ```
 #### Initialize git and add the remote repository
 ```bash
@@ -115,4 +104,4 @@ None so far.
 - PostgreSQl
 
 ### License
-**[MIT](./LICENSE)** (c) 2020 **[Bryson Mundia]()**
+**[MIT](./LICENSE)** (c) 2020 **[Virginiah Wamuyu]()**

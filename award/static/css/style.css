@@ -197,7 +197,7 @@ body{
   background-image: url(../img/project1.jpeg);
   height: 60vh;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   background-attachment: fixed;
 
